@@ -3,7 +3,7 @@ const users = [
     { username: "paidge", password: "password" },
     { username: "durel", password: "123456" },
     { username: "khale", password: "abcdef" },
-    { username: "ashley", password: "mypassword" }
+    { username: "family", password: "mypassword" }
 ];
 
 let attemptCount = 0;
