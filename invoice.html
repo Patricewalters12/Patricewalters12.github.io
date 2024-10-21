@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <h1>Invoice</h1>
+        <div id="invoice-details">
+            <h2>Order Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="invoice-items">
+                    <!-- Items will be populated here -->
+                </tbody>
+            </table>
+            <div class="totals">
+                <p>Subtotal: <span id="subtotal"></span></p>
+                <p>Tax (15%): <span id="tax"></span></p>
+                <p>Total: <span id="total"></span></p>
+            </div>
+        </div>
+        <button id="back-button">Back to Products</button>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
