@@ -1,8 +1,8 @@
 // Sample users with usernames and passwords
 const users = [
     { username: "paidge", password: "password" },
-    { username: "durel", password: "123456" },
-    { username: "khale", password: "abcdef" },
+    { username: "durel", password: "12345678" },
+    { username: "khale", password: "abcdefgh" },
     { username: "family", password: "mypassword" }
 ];
 
